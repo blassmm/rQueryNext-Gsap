@@ -1,0 +1,33 @@
+/* Button.module.css */
+
+/* Contenedor general */
+.container {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilo para el título */
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Lista de usuarios */
+.userList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.userItem {
+  background-color: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.userItem:hover {
+  background-color: #e0e0e0;
+}
